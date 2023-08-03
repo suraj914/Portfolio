@@ -1,0 +1,46 @@
+
+
+@media screen  and (max-width: 1000px){
+    .nav-toggle
+    {
+        display: block;
+        margin-right:20px;
+    }
+    .content ul li
+    {
+        display: none;
+    }
+    img {
+        position: absolute;
+        border-radius: 50%;
+        width: 50vw;
+        height: 50vw;
+        left: 30vw;
+        margin-top: 4%;
+    }
+    .main{
+        position: absolute;
+    left: 57%;
+    margin-top: 75%;
+    transform: translate(-50%, -50%);
+    }
+    h2{
+        font-size: 4.5vw;
+        letter-spacing: 2px;
+        font-weight:400;
+    }
+    
+    p{
+        font-size: 3vw;
+        letter-spacing: 2px;
+    }
+    
+    span{
+        font-size: 2vw;
+        letter-spacing: 1px;
+        margin-left: 1px;
+    }
+    
+    
+    
+}
